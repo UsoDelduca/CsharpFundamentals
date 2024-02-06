@@ -9,9 +9,24 @@ internal class Car
   private int _hp;
   private string _colour;
 
-  public void setName(string name)
+  public int GetHorsepower()
   {
+    return _hp;
+  }
+  public string GetName()
+  {
+    return _name;
+  }
+  public void SetName(string name)
+  {
+    if(name == "")
+    {
+      _name = "Default Name";
+    } else
+    {
     _name = name;
+
+    }
   }
   // Constructor
   public Car()

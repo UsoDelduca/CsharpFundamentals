@@ -7,7 +7,9 @@ namespace CsharpClasses
     static void Main(string[] args)
     {
       Car myCar = new Car();
-      myCar.setName("Marquinho");
+      myCar.SetName("Marquinho");
+      Console.WriteLine("The name of the car is " + myCar.GetName() + ", and it has " + myCar.GetHorsepower());
+      
       myCar.Details();
       Car audi = new Car("Audi A4", 800, "red");
       audi.Details();
