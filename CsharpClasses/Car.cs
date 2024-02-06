@@ -32,8 +32,15 @@ internal class Car
 
   public string Name {
     get{return _name;} 
-    set {_name = value;    }
-  }
+    set {
+      if(value == "")
+      { _name = "Hello world Default Name";}
+      else
+      {   }
+      _name = value; 
+    
+      }
+    }
   // Constructor
   public Car()
   {
