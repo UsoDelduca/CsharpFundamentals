@@ -28,6 +28,8 @@ internal class Car
 
     }
   }*/
+
+  public int MaxSpeed { get; set;} //This auto-generates a private anonymous filed 
   // public property
 
   public string Name {
