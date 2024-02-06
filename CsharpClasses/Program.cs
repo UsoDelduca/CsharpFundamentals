@@ -9,8 +9,10 @@ namespace CsharpClasses
       Car myCar = new Car();
       myCar.Name = "Prius";
       myCar.MaxSpeed = 200;
+      myCar.SpeedLimit = 50;
       myCar.Details();
       System.Console.WriteLine($"and has got {myCar.MaxSpeed} km/h Max Speed");
+      System.Console.WriteLine($"and has got {myCar.SuperSpeed} km/h Super Speed");
       /*
       myCar.SetName("Marquinho");
       Console.WriteLine("The name of the car is " + myCar.GetName() + ", and it has " + myCar.GetHorsepower());

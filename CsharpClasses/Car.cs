@@ -8,6 +8,7 @@ internal class Car
   private string _name;
   private int _hp;
   private string _colour;
+  private int _speedLimit;
 
  /* public int GetHorsepower()
   {
@@ -29,7 +30,15 @@ internal class Car
     }
   }*/
 
-  public int MaxSpeed { get; set;} //This auto-generates a private anonymous filed 
+  public int MaxSpeed { get; set;} //This auto-generates a private anonymous field 
+  public int SuperSpeed { get;} = 350;//This makes the property READ-ONLY
+  public int SpeedLimit 
+  {
+    set
+    {
+      _speedLimit = value; // This makes the property WRITE-ONLY and cannot be used or READ
+    }
+    }
   // public property
 
   public string Name {
