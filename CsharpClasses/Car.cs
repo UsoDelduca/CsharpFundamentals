@@ -9,7 +9,7 @@ internal class Car
   private int _hp;
   private string _colour;
 
-  public int GetHorsepower()
+ /* public int GetHorsepower()
   {
     return _hp;
   }
@@ -27,6 +27,12 @@ internal class Car
     _name = name;
 
     }
+  }*/
+  // public property
+
+  public string Name {
+    get{return _name;} 
+    set {_name = value;    }
   }
   // Constructor
   public Car()

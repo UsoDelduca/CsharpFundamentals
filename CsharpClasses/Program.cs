@@ -7,10 +7,12 @@ namespace CsharpClasses
     static void Main(string[] args)
     {
       Car myCar = new Car();
+      myCar.Name = "Prius";
+      myCar.Details();
+      /*
       myCar.SetName("Marquinho");
       Console.WriteLine("The name of the car is " + myCar.GetName() + ", and it has " + myCar.GetHorsepower());
       
-      myCar.Details();
       Car audi = new Car("Audi A4", 800, "red");
       audi.Details();
       Car bmw = new Car("BMW M5", 850);
@@ -22,7 +24,9 @@ namespace CsharpClasses
       audi.Stop();
       bmw.Stop();
       }
-      else{ Console.WriteLine("Cars are still driving...");}
+      else{ Console.WriteLine("Cars are still driving...");}*/
+
+
     }
   }
 }
