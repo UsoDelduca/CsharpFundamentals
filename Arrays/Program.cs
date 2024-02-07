@@ -7,6 +7,7 @@ namespace _07_Arrays
   {
     static void Main(string[] args)
     {
+     /*
       int[] grades = [20, 15, 34, 40, 10]; //define the new array with length of 5
       System.Console.WriteLine($"grade at index 0: {grades[0]}");
       string input = Console.ReadLine();
@@ -24,6 +25,23 @@ namespace _07_Arrays
 
       // getting the length of the array
       System.Console.WriteLine($"New grade B length is: {newGradesB.Length}");
+    */
+
+    // ForEach loop
+
+    int[] nums = new int[10];
+    for(int i = 0; i<10; i++)
+    {
+      nums[i] = i+10;
+    }
+    int counter = 0;
+    foreach (int k in nums)
+    {
+      System.Console.WriteLine($"Element {counter} = {k}");
+    }
+    {
+      
+    }
     }
   }
 }
