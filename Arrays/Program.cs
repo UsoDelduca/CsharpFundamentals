@@ -36,10 +36,15 @@ namespace _07_Arrays
     }
     int counter = 0;
     foreach (int k in nums)
-    {
-      System.Console.WriteLine($"Element {counter} = {k}");
-      counter++;
-    }
+      {
+        System.Console.WriteLine($"Element {counter} = {k}");
+        counter++;
+      }
+      string[] friends = ["Allan", "Bob", "Cat", "Dill", "Elizabeth", "Fabio", "Gabs", "Heath", "Illan", "Jay", "Kay"];
+      foreach (string friend in friends)
+      {
+        System.Console.WriteLine($"Hello, {friend}");
+      }
     {
       
     }
