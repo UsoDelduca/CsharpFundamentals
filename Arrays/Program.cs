@@ -38,6 +38,7 @@ namespace _07_Arrays
     foreach (int k in nums)
     {
       System.Console.WriteLine($"Element {counter} = {k}");
+      counter++;
     }
     {
       
