@@ -21,6 +21,9 @@ namespace _07_Arrays
 
       System.Console.WriteLine($"New grade A at index 1: {newGradesA[1]}");
       System.Console.WriteLine($"New grade B at index 2: {newGradesB[2]}");
+
+      // getting the length of the array
+      System.Console.WriteLine($"New grade B length is: {newGradesB.Length}");
     }
   }
 }
